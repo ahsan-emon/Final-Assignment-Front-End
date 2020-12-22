@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Post Box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+	<a href="login.html">
+	<button class="btn btn-primary pull-right" type="button">Logout</button>
+    <h1>All Post</h1>
+</div>
+
+<!-- Comment Box - START -->
+<div class="container pb-cmnt-container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
+                    <form class="form-inline">
+						<a href="post.html">
+                        <button class="btn btn-primary pull-right" type="button">Comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+	<a href="index.html">
+	<button class="btn btn-primary pull-left" type="button">Back</button>
+</div>
+<style>
+    .pb-cmnt-container {
+        font-family: Lato;
+        margin-top: 100px;
+    }
+
+    .pb-cmnt-textarea {
+        resize: none;
+        padding: 20px;
+        height: 130px;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+    }
+</style>
+
+<!-- Comment Box - END -->
+
+</div>
+
+</body>
+</html>
