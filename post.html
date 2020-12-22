@@ -10,6 +10,7 @@
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link href="Style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -18,28 +19,26 @@
 <div class="page-header">
 	<a href="login.html">
 	<button class="btn btn-primary pull-right" type="button">Logout</button>
+	</a>
     <h1>All Post</h1>
 </div>
-
-<!-- Comment Box - START -->
-<div class="container pb-cmnt-container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-info">
-                <div class="panel-body">
-                    <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
-                    <form class="form-inline">
-						<a href="post.html">
-                        <button class="btn btn-primary pull-right" type="button">Comment</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div>
 	<a href="index.html">
 	<button class="btn btn-primary pull-left" type="button">Back</button>
+	</a>
+</br></br>
+	<div id="post" class="col-md-12">	
+	<b class="add-to-cart">Nur islam</b></br>
+	<br class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quidem quo exercitationem aspernatur tempore, magnam dolorem voluptates cumque culpa optio vitae ipsum explicabo omnis. Officia sequi error mollitia porro dolores.</>
+	<div class="add-to-cart"><a class="btn btn-success" style="width:185px;font-family:consolas;margin-top:5px;" href="singlepost.html?id='+data[i].postId+'">View the post</a></span></div>
+    </div>
+    
+</br></br>
+<div id="post" class="col-md-12">	
+<b class="add-to-cart">Nur islam</b></br>
+<br class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quidem quo exercitationem aspernatur tempore, magnam dolorem voluptates cumque culpa optio vitae ipsum explicabo omnis. Officia sequi error mollitia porro dolores.</>
+<div class="add-to-cart"><a class="btn btn-success" style="width:185px;font-family:consolas;margin-top:5px;" href="../post/post.html?id='+data[i].postId+'">View the post</a></span></div>
+</div>  
+	
 </div>
 <style>
     .pb-cmnt-container {
