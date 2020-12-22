@@ -10,7 +10,10 @@
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<link href="Style.css" rel="stylesheet" type="text/css">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+	<script type="text/javascript" src="js/posts.js?v=<?php echo time(); ?>"></script>
 </head>
 <body>
 
@@ -26,18 +29,10 @@
 	<button class="btn btn-primary pull-left" type="button">Back</button>
 	</a>
 </br></br>
-	<div id="post" class="col-md-12">	
-	<b class="add-to-cart">Nur islam</b></br>
-	<br class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quidem quo exercitationem aspernatur tempore, magnam dolorem voluptates cumque culpa optio vitae ipsum explicabo omnis. Officia sequi error mollitia porro dolores.</>
-	<div class="add-to-cart"><a class="btn btn-success" style="width:185px;font-family:consolas;margin-top:5px;" href="singlepost.html?id='+data[i].postId+'">View the post</a></span></div>
-    </div>
     
-</br></br>
-<div id="post" class="col-md-12">	
-<b class="add-to-cart">Nur islam</b></br>
-<br class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quidem quo exercitationem aspernatur tempore, magnam dolorem voluptates cumque culpa optio vitae ipsum explicabo omnis. Officia sequi error mollitia porro dolores.</>
-<div class="add-to-cart"><a class="btn btn-success" style="width:185px;font-family:consolas;margin-top:5px;" href="../post/post.html?id='+data[i].postId+'">View the post</a></span></div>
-</div>  
+<div id = "posts">
+
+</div>
 	
 </div>
 <style>

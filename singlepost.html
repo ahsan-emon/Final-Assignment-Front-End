@@ -10,7 +10,10 @@
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<link href="Style.css" rel="stylesheet" type="text/css">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+	<script type="text/javascript" src="js/singlepost.js?v=<?php echo time(); ?>"></script>
 </head>
 <body>
 
@@ -23,20 +26,17 @@
     <h1>All Post</h1>
 </div>
 	<a href="post.html">
-	<button class="btn btn-primary pull-left" type="button">Back</button>
-    </a>
-
+	<button class="btn btn-primary pull-left" type="button">Back </button>
+    </a>| 
+    <button id="deletepost" class="btn btn-danger">Delete the post</button>
     <div class="container pb-cmnt-container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="panel panel-info">
                     <div class="panel-body">
-                        <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
+                        <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea" id="comment"></textarea>
                         <form class="form-inline">
-                            
-                            <a href="post.html">
-                            <button class="btn btn-primary pull-right" type="button">Comment</button>
-                            </a>
+                            <button id="addcmnt" class="btn btn-primary pull-right" type="button">Comment</button>
                         </form>
                     </div>
                 </div>
@@ -48,12 +48,7 @@
 
 
 <div class="center" id="postInfo">
-    <h2><b class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, deleniti dicta eaque soluta est sit corrupti et fuga, vel libero voluptatibus cupiditate facere, alias tempore quisquam! Reprehenderit minus earum iusto!</b></h2>
-    <h5 class="add-to-cart" style="margin-top: 10%; margin-bottom: 0%;">Md.Nur islam</h5>
-    <h4 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam quas nisi? Illo nemo et nostrum corrupti animi totam unde, neque voluptas maxime obcaecati perferendis praesentium cum, voluptate repudiandae laboriosam!</h4>      
-    <h5 class="add-to-cart" style="margin-top: 10%; margin-bottom: 0%;">Md.Nur islam</h5>
-    <h4 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam quas nisi? Illo nemo et nostrum corrupti animi totam unde, neque voluptas maxime obcaecati perferendis praesentium cum, voluptate repudiandae laboriosam!</h4>      
-
+          
 </div>
 <style>
     .pb-cmnt-container {
