@@ -26,8 +26,8 @@ a {
 .login-wrap {
   width: 100%;
   margin: auto;
-  max-width: 525px;
-  min-height: 670px;
+  max-width: 650px;
+  min-height: 700px;
   position: relative;
   background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg)
     no-repeat center;
@@ -39,7 +39,7 @@ a {
   height: 100%;
   position: absolute;
   padding: 90px 70px 50px 70px;
-  background: rgba(40, 57, 101, 0.9);
+  background: rgba(3, 53, 68, 0.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm {
@@ -107,7 +107,7 @@ a {
   font-size: 12px;
 }
 .login-form .group .button {
-  background: #1161ee;
+  background: #b8000a;
 }
 .login-form .group label .icon {
   width: 15px;
@@ -141,7 +141,7 @@ a {
   color: #fff;
 }
 .login-form .group .check:checked + label .icon {
-  background: #1161ee;
+  background: #063a96;
 }
 .login-form .group .check:checked + label .icon:before {
   transform: scale(1) rotate(45deg);
